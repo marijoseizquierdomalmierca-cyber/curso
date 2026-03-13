@@ -3,23 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cocina</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fotografía</title>
+
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/fontello.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
   <header>
     <div class="contenedor">
-      <img src="imagenes/logo-blanco.png" id="logo" alt="logotipo de la empresa">
-      <h1>El arte de cocinar</h1>
+      <img src="imagenes/icono.png" id="logo" alt="">
+      <h1>Arte fotográfico</h1>
 <button class="menu-toggle">☰</button>
       <nav class="menu">
         <a href="index.html">Inicio</a>
-        <a href="#">Recetas</a>
+        <a href="#">Catálogo</a>
         <a href="#">Blog</a>
         <a href="contacto.html">Contacto</a>
       </nav>
@@ -33,8 +35,8 @@
       <img src="imagenes/banner.jpg">
 
       <div class="contenedor">
-        <h2>Recetas de cocina</h2>
-        <p>Menus saludables</p>
+        <h2>Fotografía & Fotomontaje</h2>
+        <p>Fotografía tus sueños</p>
         <a href="#">Leer más</a>
       </div>
     </section>
@@ -42,7 +44,7 @@
 
     <section id="bienvenidos">
       <div class="contenedor">
-        <h2>BIENVENIDOS</h2>
+        <h2>BIENVENIDOS A NUESTRO CLUB</h2>
 
         <p>
           El fotomontaje transforma la realidad fusionando imágenes
@@ -140,7 +142,7 @@
   const menu = document.querySelector(".menu");
 
   boton.addEventListener("click", function () {
-    menu.classList.toggle("activo");
+    menu.classList.toggle("show");
   });
 </script>
 </body>
